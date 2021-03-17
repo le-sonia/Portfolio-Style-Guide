@@ -13,3 +13,11 @@ body {
     height: 500px;
     background-color: white;
 }
+
+.whiteBox .title {
+    margin: 24px;
+    font-size: 56px;
+    font-weight: 400;
+    color: black;
+}
+
