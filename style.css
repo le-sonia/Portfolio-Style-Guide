@@ -6,9 +6,21 @@ body {
     background-color: lightgrey;
 }
 
+.header {
+    height: 100px;
+    max-height: 500px;
+}
+
+.header h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
 .row p {
     margin-left: 10px;
     width: var(--p-width);
+    color: #828282;
+    
 }
 .boxes {
     display: flex;
@@ -25,9 +37,9 @@ body {
 
 .whiteBox .title {
     margin: 24px;
-    font-size: 56px;
-    font-weight: 400;
-    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    color: #092C4C;
 }
 
 .rowContainer {
@@ -71,7 +83,7 @@ width: 500px; */
     width: 50px;
     background-color: #575757;
     border-radius: 10px;
-    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.32);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.32);
 }
 
 .colorLabel .primary {
@@ -103,4 +115,35 @@ background-color: #575757;
 
 .colorLabel .error {
     background-color: #EB5757;
+}
+
+.colorLabel .blackOne {
+    background-color: #000000;
+}
+
+.colorLabel .blackTwo {
+    background-color: #1D1D1D;
+}
+
+.colorLabel .blackThree {
+    background-color: #282828;
+}
+
+.colorLabel .white {
+    background-color: #ffffff;
+}
+.colorLabel .greyOne {
+    background-color: #333333;
+}
+.colorLabel .greyTwo {
+    background-color: #4F4F4F;
+}
+.colorLabel .greyThree {
+    background-color: #828282;
+}
+.colorLabel .greyFour {
+    background-color: #BDBDBD;
+}
+.colorLabel .greyFive {
+    background-color: #E0E0E0;
 }
