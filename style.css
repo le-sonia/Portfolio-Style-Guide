@@ -1,6 +1,10 @@
 body {
     background-color: lightgrey;
 }
+
+.row p {
+    margin-left: 10px;
+}
 .boxes {
     display: flex;
     flex-direction: column;
@@ -9,8 +13,8 @@ body {
 
 .whiteBox {
     margin: 10px;
-    width: 500px;
-    height: 500px;
+    /* width: 500px; 
+    height: 500px; */
     background-color: white;
 }
 
@@ -21,3 +25,58 @@ body {
     color: black;
 }
 
+.rowContainer {
+    display:flex;
+    flex-direction: column;
+}
+
+.row {
+margin: 10px;
+background-color: lightgrey;
+/*height: 80px;
+width: 500px; */
+}
+
+.colorlabelContainer {
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.color.big {
+    height: 100px;
+    width: 100px;
+}
+.colorLabel {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.label {
+    font-size: 10px;
+    margin: 5px 5px 0px 5px;
+    text-align: center;
+}
+
+.color {
+    height: 50px;
+    width: 50px;
+    background-color: #575757;
+    border-radius: 2px;
+}
+
+.colorLabel .primary {
+background-color: #575757;
+}
+
+.colorLabel .secondary {
+    background-color: white;
+}
+
+.colorLabel .accent {
+    background-color: #D5A896;
+
+}
+.colorLabel .info {
+    background-color: #5E9EF3;
+}
