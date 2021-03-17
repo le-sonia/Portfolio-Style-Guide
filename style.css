@@ -1,9 +1,14 @@
+:root {
+    --p-width: 20%;
+}
+
 body {
     background-color: lightgrey;
 }
 
 .row p {
     margin-left: 10px;
+    width: var(--p-width);
 }
 .boxes {
     display: flex;
@@ -13,8 +18,8 @@ body {
 
 .whiteBox {
     margin: 10px;
-    /* width: 500px; 
-    height: 500px; */
+    width: 500px; 
+    /*height: 500px; */
     background-color: white;
 }
 
@@ -32,15 +37,18 @@ body {
 
 .row {
 margin: 10px;
-background-color: lightgrey;
+display: flex;
+flex-direction: row;
 /*height: 80px;
 width: 500px; */
 }
 
+
 .colorlabelContainer {
     display: flex;
-flex-direction: row;
-justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc(100% - var(--p-width));
 }
 
 .color.big {
@@ -62,16 +70,20 @@ justify-content: space-between;
     height: 50px;
     width: 50px;
     background-color: #575757;
-    border-radius: 2px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 24px rgba(9,44,76,0.4);
 }
 
 .colorLabel .primary {
 background-color: #575757;
+
 }
 
 .colorLabel .secondary {
     background-color: white;
+    border: solid 1px lightgray;
 }
+   
 
 .colorLabel .accent {
     background-color: #D5A896;
@@ -79,4 +91,16 @@ background-color: #575757;
 }
 .colorLabel .info {
     background-color: #5E9EF3;
+}
+
+.colorLabel .success {
+    background-color: #40C277;
+}
+
+.colorLabel .warning {
+    background-color: #FFD863;
+}
+
+.colorLabel .error {
+    background-color: #EB5757;
 }
