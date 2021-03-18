@@ -35,7 +35,7 @@ body {
 
 .whiteBox {
     margin: 10px;
-    width: 600px; 
+    width: 700px; 
     /*height: 500px; */
     background-color: white;
 }
@@ -311,7 +311,7 @@ background-color: #575757;
 .gridSystemImages {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
+    justify-content: space-around;
 }
 
 .gridImages {
@@ -327,4 +327,81 @@ background-color: #575757;
 
 .inspoImages {
     margin: 20px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttonsTitle {
+    margin-left: 20px;
+    color: #828282;
+    font-size: 16px;
+}
+
+.buttonContainer .fullWidthContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonContainer .button {
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+} 
+.buttonContainer .default {
+    background-color: white;
+    border: solid 1px black;
+}
+.buttonContainer .hover {
+    background-color: #D5A896;
+    color: white;
+}
+
+.buttonContainer .active {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), #D5A896;
+    color: white;
+}
+
+.buttonContainer .disable {
+    background-color: #E0E0E0;
+    color: white;
+}
+
+.sizesContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonContainer .small {
+    background-color: white;
+    border: solid 1px black;
+    width: 150px;
+    padding: 10px;
+}
+
+.buttonContainer .normal {
+    background-color: white;
+    border: solid 1px black;
+}
+
+.buttonContainer .medium {
+    background-color: white;
+    border: solid 1px black;
+    width: 230px;
+    padding: 18px;
+}
+
+.buttonContainer .large {
+    background-color: white;
+    border: solid 1px black;
+    width: 260px;
+    padding: 20px;
+
 }
