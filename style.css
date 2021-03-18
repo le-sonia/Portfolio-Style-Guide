@@ -305,3 +305,13 @@ background-color: #575757;
 .typographyContainer {
     margin-top: 24px;
 }
+
+.gridSystemImages {
+    display: flex;
+    flex-direction: row;
+}
+
+.gridImages {
+    max-height: 500px;
+    max-width: 100px;
+}
