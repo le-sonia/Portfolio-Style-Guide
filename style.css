@@ -44,6 +44,7 @@ body {
     color: #092C4C;
 }
 
+
 .rowContainer {
     display:flex;
     flex-direction: column;
@@ -150,15 +151,17 @@ background-color: #575757;
     background-color: #E0E0E0;
 }
 
-/*.typographyContainer {
+.typographyContainer {
     display: flex;
-}*/
+    flex-direction: row;
+}
 
 .fontTitle {
     display: flex;
     flex-direction: column;
-    justify-content: right;
-    align-items: center;
+    margin-bottom: 20px;
+    /* justify-content: right;
+    align-items: center; */
  
 }
 
@@ -170,22 +173,22 @@ background-color: #575757;
 
 .lettersTable {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: calc(100% - var(--p-width));
 }
 
 .lettersHeading {
-    margin: 10px;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: left;
     width: var(--p-width);
 }
-.headingTable {
+/* .headingTable {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: calc(100% - var(--p-width));
-}
+} */
 
 .largeLetters {
     font-size: 40px;
@@ -197,4 +200,20 @@ background-color: #575757;
 .headingLineHeight {
     font-size: 10px;
     
+}
+
+/* .headingTable {
+    float: right;
+} */
+
+.headingTable table {
+    width: 100%;
+}
+
+.headingTable th {
+    text-align: left;
+}
+
+.headingTable tr {
+    height: 20px;
 }
