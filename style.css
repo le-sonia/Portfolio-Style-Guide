@@ -3,7 +3,6 @@
 }
 
 body {
-    background-color: #F3F3F3;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -30,18 +29,21 @@ body {
 .boxes {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    background-color: #f3f3f3;
+    width: 800px;
 }
 
 .whiteBox {
     margin: 10px;
+    margin-top: 30px;
     width: 700px; 
     /*height: 500px; */
     background-color: white;
 }
 
 .whiteBox .title {
-    margin: 24px;
+    margin: 45px;
     font-size: 32px;
     font-weight: 600;
     color: #092C4C;
@@ -51,6 +53,7 @@ body {
 .rowContainer {
     display:flex;
     flex-direction: column;
+    margin: 30px;
 }
 
 .row {
@@ -99,7 +102,6 @@ background-color: #575757;
 
 .colorLabel .secondary {
     background-color: white;
-    /*border: solid 1px lightgray;*/
 }
    
 
@@ -157,6 +159,7 @@ background-color: #575757;
 .typographyContainer {
     display: flex;
     flex-direction: row;
+    margin: 30px;
 }
 
 .fontTitle {
@@ -304,25 +307,23 @@ background-color: #575757;
     color: #828282;
 }
 
-.typographyContainer {
-    margin-top: 24px;
-}
-
 .gridSystemImages {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 30px;
 }
 
 .gridImages {
-    max-height: 600px;
-    max-width: 150px;
+    max-height: 800px;
+    max-width: 160px;
 }
 
 .moodboardImages {
     display: flex;
     flex-direction: column;
     /* justify-content: space-around; */
+    margin: 30px;
 }
 
 .inspoImages {
@@ -333,6 +334,7 @@ background-color: #575757;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 30px;
 }
 
 .buttonsTitle {
