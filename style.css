@@ -10,12 +10,14 @@ body {
 .header h1 {
     font-size: 40px;
     font-weight: 700;
+    margin: 24px;
 }
 
 .header h3 {
     font-size: 24px;
     font-weight: 400;
     color: #828282;
+    margin: 24px;
 }
 
 .row p {
@@ -309,9 +311,20 @@ background-color: #575757;
 .gridSystemImages {
     display: flex;
     flex-direction: row;
+    /* justify-content: space-around; */
 }
 
 .gridImages {
-    max-height: 500px;
-    max-width: 100px;
+    max-height: 600px;
+    max-width: 150px;
+}
+
+.moodboardImages {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
+.inspoImages {
+    margin: 20px;
 }
