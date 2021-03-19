@@ -10,6 +10,7 @@ body {
     font-size: 40px;
     font-weight: 700;
     margin: 24px;
+    color: #092C4C;
 }
 
 .header h3 {
@@ -29,16 +30,14 @@ body {
 .boxes {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     background-color: #f3f3f3;
-    width: 800px;
+    width: 760px;
 }
-
 
 .whiteBox {
     margin: 30px;
     width: 700px; 
-    /*height: 500px; */
     background-color: white;
 }
 
@@ -59,8 +58,6 @@ body {
 margin: 10px;
 display: flex;
 flex-direction: row;
-/*height: 80px;
-width: 500px; */
 }
 
 .colorlabelContainer {
@@ -104,7 +101,7 @@ background-color: #575757;
 }
    
 .colorLabel .accent {
-    background-color: #D5A896;
+    background-color: #CF9C87;
 
 }
 
@@ -351,27 +348,36 @@ background-color: #575757;
     width: 200px;
     text-align: center;
     font-size: 16px;
+    font-weight: 700;
     border-radius: 8px;
+
 } 
 
 .buttonContainer .default {
     background-color: white;
-    border: solid 1px black;
+    border: solid 1px #1D1D1D;
+    color: #1D1D1D;
 }
 
 .buttonContainer .hover {
-    background-color: #D5A896;
-    color: white;
+    background-color: #DCB6A6;
+    color: #282828;
+}
+
+.buttonContainer .pressed {
+    background-color: #CE9488;
+    color: #282828;
 }
 
 .buttonContainer .active {
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), #D5A896;
-    color: white;
+    background-color: #CF9C87;
+    color: #282828;
 }
 
-.buttonContainer .disable {
-    background-color: #E0E0E0;
-    color: white;
+.buttonContainer .disabled {
+    border: 1.5px solid rgba(29, 29, 29, 0.3);
+    background-color: white;
+    color: rgba(29, 29, 29, 0.3);
 }
 
 .sizesContainer {
